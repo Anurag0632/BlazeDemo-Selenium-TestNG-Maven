@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="listners.TestListner"/>
+	</listeners>
+	<test thread-count="5" name="Smoke + Functional + Negative">
+
+		<groups>
+			<run>
+				<include name="smoke" />
+				<include name="functional" />
+				<include name="negative" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="functional.FlightBookingTestWithDetail" />
+			<class name="smoke.HappyPathTest" />
+			<class name="negative.FlightBookingTestWithRequireFieldBlank" />
+			<class name="negative.FlightBookingTestWithBlankCCDetail" />
+			<class name="negative.FlightBookingTestWithNonNumericCCDetails" />
+		</classes>
+	</test> 
+</suite>
