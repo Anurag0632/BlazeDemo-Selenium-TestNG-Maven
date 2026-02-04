@@ -21,7 +21,8 @@
 ## Features
 
 - E2E test for flight Booking (Blaze Demo)
-- Test based on groups which inludes Smoke , Functional , Negative test cases 
+- Test based on groups which inludes Smoke , Functional , Negative test cases
+- DataDriven Testing
 - Assertions and Validations
 - ScreenShot on failure
 - Extent Reports for complete execution and for different groups also 
