@@ -1,22 +1,22 @@
 # BlazeDemo Automation FrameWork with Page Object Model ( Page Factory )
 
 ## Tech Stack
--Java
--Selenium WebDriver
--TestNG
--Maven
--Page Object Model ( POM - Page Factory )
--Extent Reports
+
+ -Java
+ -Selenium WebDriver
+ -TestNG
+ -Maven
+ -Page Object Model ( POM - Page Factory )
+ -Extent Reports
 
 ## Project Structure
 
--src/main/java -> pages, utils
--src/test/java -> dataProviders , listeners , functional ,negative ,smoke ,tests
--src/test/resources -> completeProject.xml ( complete project execution ) , smoke.xml ( for smoke group  execution) , functional.xml ( for function group execution) , negativeGroup.xml( for negative 
-                       group execution )
--Reports -> all reports of respected .xml 
--SereenShot -> screenshot of all failed test
--pom.xml -> for manage all dependencies
+ -src/main/java -> pages, utils
+ -src/test/java -> dataProviders , listeners , functional ,negative ,smoke ,tests
+ -src/test/resources -> completeProject.xml ( complete project execution ) , smoke.xml ( for smoke group  execution) , functional.xml ( for function group execution) , negativeGroup.xml( for negative group execution )
+ -Reports -> all reports of respected .xml
+ -SereenShot -> screenshot of all failed test
+ -pom.xml -> for manage all dependencies
 
 ## Features
 
