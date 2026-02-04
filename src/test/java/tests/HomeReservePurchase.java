@@ -21,7 +21,6 @@ public class HomeReservePurchase extends BaseClass {
 		// Reserve Page
 
 		ReservePage rp = new ReservePage(driver);
-
 		rp.selectFlightButton();
 
 		// Purchase Page

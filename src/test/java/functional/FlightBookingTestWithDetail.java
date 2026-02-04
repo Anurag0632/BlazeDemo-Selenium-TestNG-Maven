@@ -2,11 +2,12 @@ package functional;
 
 import org.testng.annotations.Test;
 
+import dataProviders.SendPositiveData;
+
 import org.testng.AssertJUnit;
 
 import org.testng.Assert;
 
-import DataProvider.SendPositiveData;
 import pages.ConfirmationPage;
 import pages.HomePage;
 import pages.PurchasePage;

@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import DataProvider.DataWithBlankCCDetail;
+import dataProviders.DataWithBlankCCDetail;
 import pages.HomePage;
 import pages.PurchasePage;
 import pages.ReservePage;

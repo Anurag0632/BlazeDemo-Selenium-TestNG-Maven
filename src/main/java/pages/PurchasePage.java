@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class PurchasePage {
 
-	protected WebDriver driver;
+	private WebDriver driver;
 
 	@FindBy(id = "inputName")
 	private WebElement name;

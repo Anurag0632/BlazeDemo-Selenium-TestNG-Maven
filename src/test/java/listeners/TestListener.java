@@ -1,4 +1,4 @@
-package listners;
+package listeners;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
@@ -15,7 +15,7 @@ import tests.BaseClass;
 import utility.ExtentReport;
 import utility.ScreenShot;
 
-public class TestListner implements ITestListener {
+public class TestListener implements ITestListener {
 
 	private static ExtentTest test;
 	private ExtentReports reports;

@@ -1,6 +1,7 @@
 package utility;
 
 import com.aventstack.extentreports.ExtentReports;
+
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -22,10 +23,12 @@ public class ExtentReport {
 		reports.attachReporter(spark);
 
 		reports.setSystemInfo("Project Name", "Blaze Demo");
-		reports.setSystemInfo("OS", "Window");
+		reports.setSystemInfo("OS", "Windows");
+		reports.setSystemInfo("OS Version", "11 25H2");
 		reports.setSystemInfo("Browser", "Chrome");
-		reports.setSystemInfo("Tools", "Slemenium,TestNG,Maven");
-		reports.setSystemInfo("Project Structure", "Page Object Model");
+		reports.setSystemInfo("Browser Version", "v144");
+		reports.setSystemInfo("Tools Used", " Selenium , TestNG , Maven ");
+		reports.setSystemInfo("Project Structure", "Page Object Model (Page Factory)");
 		reports.setSystemInfo("SDET", "Anurag Maurya");
 
 	}

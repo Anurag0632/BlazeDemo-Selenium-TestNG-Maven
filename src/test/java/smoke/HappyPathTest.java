@@ -1,9 +1,11 @@
 package smoke;
 
 import org.testng.annotations.Test;
+
+import dataProviders.smokeSupplyData;
+
 import org.testng.Assert;
 
-import DataProvider.smokeSupplyData;
 import pages.ConfirmationPage;
 import pages.HomePage;
 import pages.PurchasePage;

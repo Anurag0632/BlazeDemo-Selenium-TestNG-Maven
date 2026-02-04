@@ -2,13 +2,14 @@ package negative;
 
 import org.testng.annotations.Test;
 
+import dataProviders.DataWithNonNumericCCDetail;
+
 import java.time.Duration;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import DataProvider.DataWithNonNumericCCDetail;
 import pages.HomePage;
 import pages.PurchasePage;
 import pages.ReservePage;

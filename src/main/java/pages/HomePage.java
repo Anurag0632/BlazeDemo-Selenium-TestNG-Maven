@@ -10,7 +10,7 @@ import utility.Waits;
 
 public class HomePage {
 
-	protected WebDriver driver;
+	private WebDriver driver;
 	private Waits wait;
 
 	@FindBy(name = "fromPort")

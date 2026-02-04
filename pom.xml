@@ -76,7 +76,7 @@
 					<version>3.5.4</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>negativeGroup.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/completeProject.xml</suiteXmlFile>
 						</suiteXmlFiles>
 					</configuration>
 				</plugin>

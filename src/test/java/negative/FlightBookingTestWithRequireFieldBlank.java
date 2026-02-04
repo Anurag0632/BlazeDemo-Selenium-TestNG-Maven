@@ -2,13 +2,14 @@ package negative;
 
 import org.testng.annotations.Test;
 
+import dataProviders.DataWithRequireFieldBlank;
+
 import java.time.Duration;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
-import DataProvider.DataWithRequireFieldBlank;
 import pages.HomePage;
 import pages.PurchasePage;
 import pages.ReservePage;

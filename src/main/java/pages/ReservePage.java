@@ -11,7 +11,7 @@ import utility.Waits;
 
 public class ReservePage {
 
-	protected WebDriver driver;
+	private WebDriver driver;
 	private Waits wait;
 
 	@FindBy(css = "[class$='btn-small']")
